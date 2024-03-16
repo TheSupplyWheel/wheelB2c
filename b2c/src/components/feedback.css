@@ -1,0 +1,16 @@
+.feedHead{
+    font-size: 1.4rem;
+}
+.feedbackForm{
+    height: 90vh;
+    background-color: #d2fff754;
+    
+}
+.inp_text{
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem #287f71;
+    border-radius: 1rem;
+}
+.rating{
+    font-size: 1.6rem;
+}

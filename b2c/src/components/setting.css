@@ -1,0 +1,21 @@
+.settingBox{
+    height: 90vh;
+    background-color: #d2fff754;
+}
+.settingHead{
+    font-size: 1.6rem;
+}
+.linkCentre{
+    text-align: center;
+    text-decoration: none;
+}
+.addresscurrent{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.2rem #287f71;
+    font-size: 1.4rem;
+}
+.addressChange{
+    font-size: 1.6rem;
+}

@@ -1,0 +1,49 @@
+.home{
+    height: 100%;
+    width: 100%;
+  /* animation: landing 5s infinite; */
+  /* transition: all; */
+    background: linear-gradient(-45deg, #00c9752c, #00c97542, #00c97568, #00c97555), url("./../icon/land.jpg");
+	background-size: 400% 400%;
+	animation: landing 15s ease infinite;
+}
+@keyframes landing{
+    0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.headingOrder{
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.headingOrder span{
+    font-size: 2rem;
+    color: #fff;
+    border: 0.2rem solid #fff;
+    padding: 1.6rem;
+    margin-top: 1.6rem !important;
+    display: inline-block;
+}
+.headingOrder{
+    color: #fff;
+    font-size: 3.2rem;
+    padding: 1rem;
+    
+}
+.home{
+    position: relative;
+}
+.susidary{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+}
