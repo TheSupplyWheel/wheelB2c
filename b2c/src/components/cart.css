@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+
+.carthead{
+    font-size: 1.6rem;
+}
+.cartProd , .countbox{
+    box-shadow: 0 0 0.2rem #287f71;
+    border-radius: 1rem;
+}
+.cart{
+    padding-right: 0;
+}
+.name{
+    font-size: 1.2rem;
+}
+.add{
+    border: none;
+    background: none;
+    font-size: 2.4rem;
+    color: #fff;
+    cursor: pointer;
+}
+.count{
+    font-size: 2rem;
+}
+.countbox{
+    background-color: #287f71;
+    color: #fff;
+    padding-right: 1rem;
+}
+.coverCart{
+    height:90vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #d2fff754;
+}
+.cartProd{
+    background-color: #fff;
+}
+.placeorder{
+    margin-bottom: 1.6rem;
+}
+.unitsInCartupdate{
+    font-size: 1.4rem;
+}
+.paymentprocess{
+    font-size: 1.6rem;
+}
+
+.placedScreen{
+    height: 100vh;
+}
+
+.outer{
+    width: 25vh;
+    height: 25vh;
+    background-color: #287f71;
+    border-radius: 10rem;
+    box-shadow: 0 0 5rem #287f71;
+    animation: placedAni 2s ease  infinite ;
+}
+.inner{
+    width: 20vh;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 10rem;
+}
+.placename{
+    font-size: 3.2rem;
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important;
+}
+
+@keyframes placedAni {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2) ;
+    }
+    100%{
+        transform: scale(1) rotate(-360deg);
+    }
+}
+.thanks{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.deleteBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.comb{
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem #287f71;
+    border-radius: 1rem;
+}
+.corentbox{
+    background-color: #287f71;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 1rem;
+}
+.combocred{
+    font-size: 1.2rem;
+}
+.combocred-{
+    font-size: 1.6rem;
+    font-weight: 700;
+}

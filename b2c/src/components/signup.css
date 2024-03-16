@@ -1,0 +1,17 @@
+.signup{
+    height: 100%;
+}
+.label{
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+}
+.subHead{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.submit{
+    text-align: center;
+}
+.backToLogin{
+    text-align: center;
+}

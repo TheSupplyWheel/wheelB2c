@@ -1,0 +1,9 @@
+.fruit{
+    height: 90vh;
+    background-color: #d2fff754;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.fruithead{
+    font-size: 1.6rem;
+}

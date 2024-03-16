@@ -1,0 +1,47 @@
+.inp__small{
+    width: 13vh;
+}
+.prod{
+    box-shadow: 0 0 0.2rem #287f71;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+.price{
+    font-size: 1.6rem;
+}
+.add{
+    padding: 0.5rem !important;
+}
+.all-products{
+    height: 90vh;
+    background-color: #d2fff754;
+}
+.filterhead{
+    font-size: 1.4rem;
+}
+.products{
+    height: 70vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.all-products{
+    position: relative;
+}
+.floatCart{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 20vh;
+    height: 20vh;
+    background-color: #287f70;
+    border-radius: 1rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.subhead{
+    text-align: center;
+    color: #fff;
+}
+.itemAdded{
+    color: #fff;
+}

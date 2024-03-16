@@ -1,0 +1,548 @@
+.flex {
+  display: flex;
+}
+.flex-1 {
+  align-items: center;
+  justify-content: center;
+}
+.flex-2 {
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-3 {
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-dir {
+  flex-direction: column;
+}
+.flex-end {
+  align-items: end;
+}
+.flex-align {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+.grid-1-col {
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid-1-row {
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-2-row {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-3-row {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-4-row {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-5-col {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-5-row {
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.grid-6-col {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-6-row {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.grid-7-col {
+  grid-template-columns: repeat(7, 1fr);
+}
+.grid-7-row {
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.grid-8-col {
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid-8-row {
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.grid-9-col {
+  grid-template-columns: repeat(9, 1fr);
+}
+.grid-9-row {
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.grid-10-col {
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid-12-col {
+  grid-template-columns: repeat(12, 1fr);
+}
+.grid-10-row {
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.gap4 {
+  gap: 0.4rem;
+}
+
+.gap8 {
+  gap: 0.8rem;
+}
+
+.gap12 {
+  gap: 1.2rem;
+}
+
+.gap16 {
+  gap: 1.6rem;
+}
+
+.gap20 {
+  gap: 2rem;
+}
+
+.gap24 {
+  gap: 2.4rem;
+}
+
+.gap28 {
+  gap: 2.8rem;
+}
+
+.gap32 {
+  gap: 3.2rem;
+}
+
+.gap36 {
+  gap: 3.6rem;
+}
+
+.gap40 {
+  gap: 4rem;
+}
+
+.gap44 {
+  gap: 4.4rem;
+}
+
+.gap48 {
+  gap: 4.8rem;
+}
+
+.gap52 {
+  gap: 5.2rem;
+}
+
+.gap56 {
+  gap: 5.6rem;
+}
+
+.gap60 {
+  gap: 6rem;
+}
+
+.gap64 {
+  gap: 6.4rem;
+}
+
+.gap68 {
+  gap: 6.8rem;
+}
+
+.gap72 {
+  gap: 7.2rem;
+}
+
+.gap76 {
+  gap: 7.6rem;
+}
+
+.gap80 {
+  gap: 8rem;
+}
+
+.gap84 {
+  gap: 8.4rem;
+}
+
+.gap88 {
+  gap: 8.8rem;
+}
+
+.gap92 {
+  gap: 9.2rem;
+}
+
+.gap96 {
+  gap: 9.6rem;
+}
+
+.gap100 {
+  gap: 10rem;
+}
+
+.margin4 {
+  margin: 0.4rem;
+}
+
+.margin8 {
+  margin: 0.8rem;
+}
+
+.margin12 {
+  margin: 1.2rem;
+}
+
+.margin16 {
+  margin: 1.6rem;
+}
+
+.margin20 {
+  margin: 2rem;
+}
+
+.margin24 {
+  margin: 2.4rem;
+}
+
+.margin28 {
+  margin: 2.8rem;
+}
+
+.margin32 {
+  margin: 3.2rem;
+}
+
+.margin36 {
+  margin: 3.6rem;
+}
+
+.margin40 {
+  margin: 4rem;
+}
+
+.margin44 {
+  margin: 4.4rem;
+}
+
+.margin48 {
+  margin: 4.8rem;
+}
+
+.margin52 {
+  margin: 5.2rem;
+}
+
+.margin56 {
+  margin: 5.6rem;
+}
+
+.margin60 {
+  margin: 6rem;
+}
+
+.margin64 {
+  margin: 6.4rem;
+}
+
+.margin68 {
+  margin: 6.8rem;
+}
+
+.margin72 {
+  margin: 7.2rem;
+}
+
+.margin76 {
+  margin: 7.6rem;
+}
+
+.margin80 {
+  margin: 8rem;
+}
+
+.margin84 {
+  margin: 8.4rem;
+}
+
+.margin88 {
+  margin: 8.8rem;
+}
+
+.margin92 {
+  margin: 9.2rem;
+}
+
+.margin96 {
+  margin: 9.6rem;
+}
+
+.margin100 {
+  margin: 10rem;
+}
+
+.pad4 {
+  padding: 0.4rem;
+}
+
+.pad8 {
+  padding: 0.8rem;
+}
+
+.pad12 {
+  padding: 1.2rem;
+}
+
+.pad16 {
+  padding: 1.6rem;
+}
+
+.pad20 {
+  padding: 2rem;
+}
+
+.pad24 {
+  padding: 2.4rem;
+}
+
+.pad28 {
+  padding: 2.8rem;
+}
+
+.pad32 {
+  padding: 3.2rem;
+}
+
+.pad36 {
+  padding: 3.6rem;
+}
+
+.pad40 {
+  padding: 4rem;
+}
+
+.pad44 {
+  padding: 4.4rem;
+}
+
+.pad48 {
+  padding: 4.8rem;
+}
+
+.pad52 {
+  padding: 5.2rem;
+}
+
+.pad56 {
+  padding: 5.6rem;
+}
+
+.pad60 {
+  padding: 6rem;
+}
+
+.pad64 {
+  padding: 6.4rem;
+}
+
+.pad68 {
+  padding: 6.8rem;
+}
+
+.pad72 {
+  padding: 7.2rem;
+}
+
+.pad76 {
+  padding: 7.6rem;
+}
+
+.pad80 {
+  padding: 8rem;
+}
+
+.pad84 {
+  padding: 8.4rem;
+}
+
+.pad88 {
+  padding: 8.8rem;
+}
+
+.pad92 {
+  padding: 9.2rem;
+}
+
+.pad96 {
+  padding: 9.6rem;
+}
+
+.pad100 {
+  padding: 10rem;
+}
+.mainImg {
+  width: 60vh;
+}
+.wheel {
+  font-size: 4rem;
+  color: #287f71;
+}
+.sub {
+  font-size: 1.6rem;
+}
+
+.inp {
+  padding: 1rem;
+  border: 0.1rem solid #287f71 !important;
+  border-radius: 2rem;
+  font-family: "Montserrat";
+  width: 40vh;
+}
+.inp__updated {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "Montserrat";
+  background-color: #ffffff77;
+}
+.inp__updated::placeholder {
+  color: #000;
+}
+.inp__color {
+  width: 10vh;
+  border: none;
+  outline: none;
+}
+.icon {
+  width: 4.8rem;
+}
+.icon__ {
+  width: 2.4rem;
+}
+.icon__small {
+  width: 1.6rem;
+}
+.netDisplay {
+  overflow: hidden;
+}
+.heading,
+.secHeading {
+  font-size: 1.8rem;
+  color: #fff;
+  font-family: "Montserrat";
+}
+.secHeading {
+  color: #000;
+}
+.white__btn,
+.border_btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.border_btn_white {
+  background-color: #fff !important;
+  border: none !important;
+  text-decoration: none;
+  color: #287f71 !important;
+  text-align: center;
+  font-size: 1.2rem !important;
+}
+.white__btn__ {
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.border_btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background: none;
+  border: 0.1rem solid #287f71;
+  font-family: "Montserrat";
+}
+.border_btn:focus {
+  border: none;
+  outline: none;
+}
+.border_btn_fill {
+  background-color: #287f71;
+  color: #fff;
+}
+.head__grid {
+  grid-column: 1/4;
+}
+.inp__update {
+  width: 100%;
+}
+.unitsinp {
+  width: 8vh;
+  padding: 0.5rem;
+  border: none;
+  background-color: #287f7031;
+  border-radius: 5rem;
+}
+.AddToCart {
+  border: none;
+  background-color: #287f71;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.name__,
+.price {
+  font-size: 1.4rem;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0.01rem;
+  visibility: hidden;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #287f71;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #287f71;
+  visibility: hidden;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
